@@ -4,4 +4,4 @@ CREATE TABLE "Music_Video" (
 	"video_director"	TEXT,
 	PRIMARY KEY("track_id"),
 	FOREIGN KEY("track_id") REFERENCES "tracks"("TrackId")
-)
+);

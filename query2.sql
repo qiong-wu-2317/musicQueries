@@ -9,3 +9,5 @@ INSERT INTO Music_Video VALUES (7, 'Stanley Kubrick');
 INSERT INTO Music_Video VALUES (8, 'James Cameron');
 INSERT INTO Music_Video VALUES (9, 'Wes Anderson');
 INSERT INTO Music_Video VALUES (10, 'Sofia Coppola');
+
+SELECT * FROM Music_Video;
