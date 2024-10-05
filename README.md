@@ -32,40 +32,40 @@ sqlite3 chinook.db
 * Query 3:  Insert another video for the track "Voodoo", assuming that you don't know the TrackId, so your insert query should specify the TrackId directly.
 
 ```
-sqlite3 chinook.db < query3.sql
+.read query3.sql
 ```
 
 
 * Query 4:  Write a query that lists all the tracks that have a ' in the name (e.g. Jorge Da Capadócia, o Samba De Uma Nota Só (One Note Samba)) (this is á,é,í,ó,ú)
 
 ```
-sqlite3 chinook.db < query4.sql
+.read query4.sql
 ```
 
 
 * Query 5: Creative addition. Make an interesting query that uses a JOIN of at least two tables.
 
 ```
-sqlite3 chinook.db < query5.sql
+.read query5.sql
 ```
 
 
 * Query 6: Creative addition. Make an interesting query that uses a GROUP statement and at least two tables.
 
 ```
-sqlite3 chinook.db < query6.sql
+.read query6.sql
 ```
 
 
 * Query 7:  Write a query that lists all the customers that listen to longer-than-average tracks, excluding the tracks that are longer than 15 minutes. 
 
 ```
-sqlite3 chinook.db < query7.sql
+.read query7.sql
 ```
 
 
 * Query 8:  Write a query that lists all the tracks that are not in one of the top 5 genres with longer duration in the database. 
 
 ```
-sqlite3 chinook.db < query8.sql
+.read query8.sql
 ```
